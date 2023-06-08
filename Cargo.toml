@@ -5,3 +5,4 @@ members = [
     "crates/pdk1",
     "crates/pdk2",
 ]
+resolver = "2"

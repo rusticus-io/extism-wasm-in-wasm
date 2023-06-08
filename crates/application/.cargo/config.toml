@@ -1,0 +1,2 @@
+[build]
+target = "nightly-x86_64-unknown-linux-gnu"

@@ -12,3 +12,4 @@ crate_type = ["cdylib"]
 types = { path = "../types" }
 serde = { version = "1", features = ["derive"] }
 extism-pdk = "0.3.3"
+wasmi = "0.30.0"

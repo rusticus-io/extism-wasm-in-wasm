@@ -16,7 +16,7 @@ fn main() -> anyhow::Result<()> {
 
     plugin.set_config(&config)?;
 
-    let data = plugin.call("count_vowels", "this is a test")?;
+    let data = plugin.call("outer_wasm", vec![])?;
 
     println!("{}", String::from_utf8(data.to_vec())?);
 
@@ -24,3 +24,4 @@ fn main() -> anyhow::Result<()> {
 
     Ok(())
 }
+
